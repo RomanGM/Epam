@@ -1,0 +1,7 @@
+C:\Users\Roman\Desktop\NunitDemo\NunitDemo\bin\Debug\NunitDemo.dll
+C:\Users\Roman\Desktop\NunitDemo\NunitDemo\bin\Debug\NunitDemo.pdb
+C:\Users\Roman\Desktop\NunitDemo\NunitDemo\bin\Debug\nunit.framework.dll
+C:\Users\Roman\Desktop\NunitDemo\NunitDemo\bin\Debug\nunit.framework.xml
+C:\Users\Roman\Desktop\NunitDemo\NunitDemo\obj\Debug\NunitDemo.csproj.CoreCompileInputs.cache
+C:\Users\Roman\Desktop\NunitDemo\NunitDemo\obj\Debug\NunitDemo.dll
+C:\Users\Roman\Desktop\NunitDemo\NunitDemo\obj\Debug\NunitDemo.pdb
