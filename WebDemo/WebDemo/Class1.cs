@@ -16,7 +16,10 @@ namespace WebDemo
         public void oneCanOpenGoogle()
         {
             IWebDriver firefox = new FirefoxDriver();
-            firefox.Navigate().GoToUrl("https://github.com/login");
+            firefox.Navigate().GoToUrl("https://github.com");
+
+            IWebElement signField = firefox.FindElement( By.XPath("//a[@href='/login']" ) );
+            signField.Click();
 
             IWebElement loginField = firefox.FindElement( By.Name( "login" ) );
             loginField.SendKeys( "testautomationuser");
