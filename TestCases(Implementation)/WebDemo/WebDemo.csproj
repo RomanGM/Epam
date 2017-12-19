@@ -50,12 +50,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Driver\DriverInstance.cs" />
     <Compile Include="Helper.cs" />
-    <Compile Include="Test.cs" />
+    <Compile Include="Pages\SearchPage.cs" />
+    <Compile Include="Steps\Steps.cs" />
+    <Compile Include="Tests\Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
