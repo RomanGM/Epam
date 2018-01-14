@@ -35,7 +35,7 @@ namespace WebDemo.Pages
 
         string inputTimeMin = "//*[@class='div-select'][1]/select/option[@value='{0}']";
         string inputTimeMax = "//*[@class='div-select'][2]/select/option[@value='{0}']";
-        string errorBlock = "//*[@class='search-error']/div[1]/b";
+        string errorBlock = "//*[@id='rail_app_view']/div/div[1]/div[3]/div[2]";
         string inputDate = "//*[@data-month='{0}']/a[text()='{1}']";
         string inputCount = ".//div[text()='{0}']";
 
@@ -106,16 +106,16 @@ namespace WebDemo.Pages
             buttonChild.Click();
         }
 
-        public bool IsErrorBlockExist()
+        public string ErrorBlockText()
         {
             try
             {
-                driver.FindElement( By.XPath( errorBlock ) );
-                return true;
+                IWebElement errorElement = driver.FindElement( By.XPath( errorBlock ) );
+                return errorElement.Text;
             }
             catch (NoSuchElementException e)
             {
-                return false;
+                return "";
             }
         }
     }

@@ -65,9 +65,9 @@ namespace WebDemo.Steps
             return new SearchPage( driver ).IsSubmitEnabled();
         }
 
-        public bool IsError()
+        public string ErrorText()
         {
-            return new SearchPage( driver ).IsErrorBlockExist();
+            return new SearchPage( driver ).ErrorBlockText();
         }
     }
 }
